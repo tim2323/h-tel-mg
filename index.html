@@ -9,32 +9,40 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 
 	<title>Trip</title>
 </head>
 
 <body>
+
 	<!-- NAV -->
 	<nav class="navbar navbar-expand navbar-dark bg-dark">
-		<a href="index.html" class="navbar-brand"> <img src="logo.jpg" width="20%" alt="logo">  </a>
+		<a href="index.html" class="navbar-brand"> <img src="img/logo.jpg" width="20%" alt="logo">  </a>
 		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 		 aria-expanded="false">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<a href="#" class="nav-item active nav-link"> Acceuil </a>
-				<a href="#propos" class="nav-item active nav-link"> A propos </a>
-				<a href="#activiter" class="nav item active nav-link"> Activiter </a>
+				<li class="nav-item">
+					<a href="#" class="active nav-link"> Acceuil </a>
+				</li>
+				<li class="nav-item">
+					<a href="#propos" class=" active nav-link"> A propos </a>
+				</li>
+				<li class="nav-item">
+					<a href="#activiter" class="active nav-link"> Activiter </a>
+				</li>
 				<li class="nav-item dropdown">
-					<a href="#" class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
 					 aria-expanded="false"> Chambres </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a href="#activiter" class="dropdown-item"> Chambres simple </a>
-						<a href="#activiter" class="dropdown-item"> Chambres King Size </a>
-						<a href="#activiter" class="dropdown-item"> Suites </a>
+						<a class="dropdown-item" href="#contact"> Chambres simple </a>
+						<a class="dropdown-item" href="#contact"> Chambres King Size </a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#contact"> Suites </a>
 					</div>
 				</li>
 			</ul>
@@ -49,93 +57,101 @@
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100 " src="https://images.unsplash.com/photo-1495316015364-f6f10111b63e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=18e343491475ae3cf3ddf06027362f0c&auto=format&fit=crop&w=1403&q=80.jpg alt="image">
-				</div>
+				<img class="d-block w-100 " src="https://images.unsplash.com/photo-1495316015364-f6f10111b63e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=18e343491475ae3cf3ddf06027362f0c&auto=format&fit=crop&w=1403&q=80.jpg"
+				 alt="image">
 			</div>
 		</div>
-		
-    <!-- fin jumbotron -->
+	</div>
+
+	<!-- fin jumbotron -->
+	<br>
+	<br>
+	<!-- debut mini presentation  -->
+	<section class="section" id="propos">
+		<div class="container ">
+
+			<hr>
+			<p class="texte"> <img src="https://images.unsplash.com/photo-1536006630892-d469c92fea2c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a3c9370738b4c1a9735e46d39d79c225&auto=format&fit=crop&w=1350&q=80.jpg"
+				 alt="chambre" width="22% " class="imggauche img-thumbnail "> Vous vous imaginez les pieds dans le sable chaud ? Tripmania
+				est l'île qu'il vous faut. Au large des côtes africaines, vous serez subjugués par son parfait mélange de paysages volcaniques,
+				de plages de sable fin, de dunes interminables et d'oasis luxuriantes. Ce petit paradis accueillera les amateurs de farniente
+				mais aussi de sports nautiques. Entre planche à voile, kite-surf ou bien encore plongée sous-marine, vous n'aurez pas
+				le temps de vous ennuyer.
+				<br>
+				<br>
+				<br> Les amateurs de randonnées et d’émotions fortes ne seront pas en reste : à pied, en buggy ou en 4x4, les Dunes de
+				Corralejo n’attendent que vous. <br>
+				<strong>On vous emmène ?</strong></p>
+		</div>
+	</section>
+
+	<section class="section " id="deuxieme ">
+		<div class="container ">
+			<hr>
+			<p class="texte2 "> <img src="https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f868207795187b8520270b26344373ff&auto=format&fit=crop&w=1254&q=80.jpg
+				 " alt=" " width="22% " class="imgdroite img-thumbnail ">L'hôtel Trip réserve un accueil des plus sympathiques, fruit
+				d'une atmosphère tranquille et d'un traitement personnalisé à tout ses clients. Au nord de l'île, l'hôtel Arena Suite
+				est dominé par le volcan éventré Bayuyo et bordé par le parc naturel des dunes de Corralejo. Vous serez parfaitement
+				situé pour accéder à tous les centres d’intérêts de l'île. Et bien sûr, il est l'endroit idéal pour se relaxer au soleil
+				en couple, entre amis ou en famille. <br>
+				<strong>Prêt pour la détente ?</strong></p>
+		</div>
 		<br>
 		<br>
-		<!-- debut mini presentation  -->
-		<section class="section" id="propos">
-			<div class="container ">
-
-				<hr>
-				<p class="texte"> <img  src="https://images.unsplash.com/photo-1536006630892-d469c92fea2c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a3c9370738b4c1a9735e46d39d79c225&auto=format&fit=crop&w=1350&q=80.jpg"
-				  alt="chambre" width="22% " class="imggauche img-thumbnail "> Vous vous imaginez les pieds dans le sable chaud ?
-					Tripmania est l'île qu'il vous faut. Au large des côtes africaines, vous serez subjugués par son parfait mélange de paysages volcaniques, de plages de sable fin, de dunes interminables et d'oasis luxuriantes. Ce petit paradis accueillera les amateurs de farniente mais aussi de sports nautiques. Entre planche à voile, kite-surf ou bien encore plongée sous-marine, vous n'aurez pas le temps de vous ennuyer. 
-					<br>
-					<br>
-					<br>
-					Les amateurs de randonnées et d’émotions fortes ne seront pas en reste : à pied, en buggy ou en 4x4, les Dunes de Corralejo n’attendent que vous. <br>
-					<strong>On vous emmène ?</strong></p>
-				</div>
-			</section>
-
-			<section class="section " id="deuxieme ">
-				<div class="container ">
-					<hr>
-					<p class="texte2 "> <img src="https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f868207795187b8520270b26344373ff&auto=format&fit=crop&w=1254&q=80.jpg
-				 " alt=" " width="22% " class="imgdroite img-thumbnail ">L'hôtel Trip réserve un accueil des plus sympathiques, fruit d'une atmosphère tranquille et d'un traitement personnalisé à tout ses clients. Au nord de l'île, l'hôtel Arena Suite est dominé par le volcan éventré Bayuyo et bordé par le parc naturel des dunes de Corralejo. Vous serez parfaitement situé pour accéder à tous les centres d’intérêts de l'île. Et bien sûr, il est l'endroit idéal pour se relaxer au soleil en couple, entre amis ou en famille. <br>
-						<strong>Prêt pour la détente ?</strong></p>
-					</div>
-					<br>
-					<br>
-				</section>
-				<br>
-				<br>
-				<br>
-				<!-- end mini presentation  -->
-				<!-- debut carousel -->
-				<div class="section ">
-					<div class="container ">
-						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel ">
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img class="d-block w-60" src="https://images.unsplash.com/photo-1530491396055-5aca4203edbf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ee36d589c21e922756e42f8f3fd8b11&auto=format&fit=crop&w=1265&q=80.jpg
+	</section>
+	<br>
+	<br>
+	<br>
+	<!-- end mini presentation  -->
+	<!-- debut carousel -->
+	<div class="section ">
+		<div class="container ">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel ">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-60" src="https://images.unsplash.com/photo-1530491396055-5aca4203edbf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ee36d589c21e922756e42f8f3fd8b11&auto=format&fit=crop&w=1265&q=80.jpg
 				 " alt="First slide">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-120" src="https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=39d43f7b26e843b4fb95c686eaafe3e2&auto=format&fit=crop&w=1350&q=80.jpg
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-120" src="https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=39d43f7b26e843b4fb95c686eaafe3e2&auto=format&fit=crop&w=1350&q=80.jpg
 				 " alt="Second slide">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-120" src="https://images.unsplash.com/photo-1479971682871-0bfb73e35e6b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d748cf1e25eba8275a8a5f24c3914d65&auto=format&fit=crop&w=1350&q=80.jpg
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-120" src="https://images.unsplash.com/photo-1479971682871-0bfb73e35e6b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d748cf1e25eba8275a8a5f24c3914d65&auto=format&fit=crop&w=1350&q=80.jpg
 				 " alt="Third slide">
-								</div>
-							</div>
-							<a class="carousel-control-prev " href="#carouselExampleControls" role="button " data-slide="prev">
+					</div>
+				</div>
+				<a class="carousel-control-prev " href="#carouselExampleControls" role="button " data-slide="prev">
 								<span class="carousel-control-prev-icon " aria-hidden="true"></span>
 								<span class="sr-only ">Previous</span>
 							</a>
-							<a class="carousel-control-next " href="#carouselExampleControls" role="button " data-slide="next">
+				<a class="carousel-control-next " href="#carouselExampleControls" role="button " data-slide="next">
 								<span class="carousel-control-next-icon " aria-hidden="true"></span>
 								<span class="sr-only ">Next</span>
 							</a>
-						</div>
-					</div>
-				</div>
+			</div>
+		</div>
+	</div>
 
-				<!-- fin carousel -->
+	<!-- fin carousel -->
 
-				<br>
-				<br>
-				<br>
+	<br>
+	<br>
+	<br>
 
-				<!-- debut 3 cartes  -->
+	<!-- debut 3 cartes  -->
 
-				<section class="container-fluid about " id="activiter">
-					<div class="container ">
-						<div class="row ">
-							<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 ">
-								<img src="https://images.unsplash.com/photo-1464306076886-da185f6a9d05?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5411e5e2a33968412d4d18cd9467823&auto=format&fit=crop&w=1350&q=80.jpg
-				 " width=99%">
-				<h2> Les saveurs </h2>
-				<p>Pour des vacances en toute sérénité, nous avons choisi pour vous la formule tout inclus. Vous commencerez la journée
-					par un bon petit-déjeuner servis sous forme de buffet. Vous pourrez déguster des plats typiques de l'île mais aussi
-					de la cuisine internationale. Une petite soif dans l'après-midi ? Détendez-vous au Pool snack bar autour d'un verre,
-					situé près de la piscine. Le soir venu, retrouvez-vous autour d'un verre au bar salon..</p>
+	<section class="container-fluid about " id="activiter">
+		<div class="container ">
+			<div class="row ">
+				<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 ">
+					<img src="https://images.unsplash.com/photo-1464306076886-da185f6a9d05?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5411e5e2a33968412d4d18cd9467823&auto=format&fit=crop&w=1350&q=80.jpg"
+					 " width=99%">
+					<h2> Les saveurs </h2>
+					<p>Pour des vacances en toute sérénité, nous avons choisi pour vous la formule tout inclus. Vous commencerez la journée
+						par un bon petit-déjeuner servis sous forme de buffet. Vous pourrez déguster des plats typiques de l'île mais aussi
+						de la cuisine internationale. Une petite soif dans l'après-midi ? Détendez-vous au Pool snack bar autour d'un verre,
+						situé près de la piscine. Le soir venu, retrouvez-vous autour d'un verre au bar salon..</p>
 				</article>
 				<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
 					<img src="https://images.unsplash.com/photo-1439130490301-25e322d88054?ixlib=rb-0.3.5&s=860c726743be0381914cbf7782564356&auto=format&fit=crop&w=1489&q=80.jpg"
@@ -152,153 +168,154 @@
 				<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
 					<img src="https://images.unsplash.com/photo-1501117716987-c8c394bb29df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8e28c1018557ce027fc2e540e1acbb89&auto=format&fit=crop&w=1350&q=80.jpg"
 					 width="100%" height="37%">
-								<h2> Les chambres </h2>
-								<p>Spacieuse, lumineuse et moderne, votre chambre entièrement équipée et aux couleurs chatoyantes saura vous faire passer un excellent séjour. Quand le soleil tombe, en fin de journée, prenez la direction de votre terrasse ou de votre balcon et profitez de vues saisissantes sur les alentours... Vous êtes en vacances !</p>
-							</article>
-						</div>
-					</div>
-				</section>
-				<!-- END à propos -->
-				<br>
-				<br>
-				
-				<!-- footer - contact -->
-				<link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+					<h2> Les chambres </h2>
+					<p>Spacieuse, lumineuse et moderne, votre chambre entièrement équipée et aux couleurs chatoyantes saura vous faire passer
+						un excellent séjour. Quand le soleil tombe, en fin de journée, prenez la direction de votre terrasse ou de votre balcon
+						et profitez de vues saisissantes sur les alentours... Vous êtes en vacances !</p>
+				</article>
+			</div>
+		</div>
+	</section>
+	<!-- END à propos -->
+	<br>
+	<br>
+
+	<!-- footer - contact -->
+	<link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 					 " target="_blank " id="contact">
-				<footer class="mt-5 ">
-					<div class="container-fluid bg-faded mt-5 ">
-						<div class="container">
-							<div class="row py-3 ">
-								<!-- footer column 1 start -->
-								<div class="col-md-4">
-									<!-- row start -->
-									<div class="row py-2">
-										<div class="col-sm-3 hidden-md-down">
-											<a class="bg-circle bg-info " href="https://twitter.com/ " target="_blank" >
+	<footer class="mt-5 ">
+		<div class="container-fluid bg-faded mt-5 ">
+			<div class="container">
+				<div class="row py-3 ">
+					<!-- footer column 1 start -->
+					<div class="col-md-4">
+						<!-- row start -->
+						<div class="row py-2">
+							<div class="col-sm-3 hidden-md-down">
+								<a class="bg-circle bg-info " href="https://twitter.com/ " target="_blank">
 												<i class="fa fa-2x fa-fw fa-twitter " aria-hidden="true "></i>
 											</a>
-										</div>
-										<div class="col-sm-9">
-											<h4>Tweets</h4>
-											Embed here?
-										</div>
-									</div>
-									<!-- row end -->
-								</div>
-								<!-- footer column 1 end -->
-								<!-- footer column 2 start -->
-								<div class="col-md-4">
-									<!-- row start -->
-									<div class="row py-2">
-										<div class="col-sm-3 hidden-md-down">
-											<a class="bg-circle bg-info " href="# " target="_blank">
+							</div>
+							<div class="col-sm-9">
+								<h4>Tweets</h4>
+								Embed here?
+							</div>
+						</div>
+						<!-- row end -->
+					</div>
+					<!-- footer column 1 end -->
+					<!-- footer column 2 start -->
+					<div class="col-md-4">
+						<!-- row start -->
+						<div class="row py-2">
+							<div class="col-sm-3 hidden-md-down">
+								<a class="bg-circle bg-info " href="# " target="_blank">
 												<i class="fa fa-2x fa-fw fa-address-card " aria-hidden="true"></i>
 											</a>
-										</div>
-										<div class="col-sm-9 ">
-											<h4>Contact us</h4>
-											<p>Why not?</p>
-										</div>
-									</div>
-									<!-- row end -->
-									<!-- row start -->
-									<div class="row py-2 ">
-										<div class="col-sm-3 hidden-md-down">
-											<a class="bg-circle bg-info " href="# " target="_blank">
+							</div>
+							<div class="col-sm-9 ">
+								<h4>Contact us</h4>
+								<p>Why not?</p>
+							</div>
+						</div>
+						<!-- row end -->
+						<!-- row start -->
+						<div class="row py-2 ">
+							<div class="col-sm-3 hidden-md-down">
+								<a class="bg-circle bg-info " href="# " target="_blank">
 												<i class="fa fa-2x fa-fw fa-laptop " aria-hidden="true"></i>
 											</a>
-										</div>
-										<div class="col-sm-9">
-											<h4>Cookie policy</h4>
-											<p class=" ">We use <a class=" " href="/# " target="_blank">cookies </a></p>
-										</div>
-									</div>
-									<!-- row end -->
-								</div>
-								<!-- footer column 2 end -->
-								<!-- footer column 3 start -->
-								<div class="col-md-4 ">
-									<!-- row starting  -->
-									<div class="row py-2">
-										<div class="col-sm-3 hidden-md-down">
-											<a class="bg-circle bg-danger " href="# " target="_blank">
+							</div>
+							<div class="col-sm-9">
+								<h4>Cookie policy</h4>
+								<p class=" ">We use <a class=" " href="/# " target="_blank">cookies </a></p>
+							</div>
+						</div>
+						<!-- row end -->
+					</div>
+					<!-- footer column 2 end -->
+					<!-- footer column 3 start -->
+					<div class="col-md-4 ">
+						<!-- row starting  -->
+						<div class="row py-2">
+							<div class="col-sm-3 hidden-md-down">
+								<a class="bg-circle bg-danger " href="# " target="_blank">
 												<i class="fa fa-2x fa-fw fa-file-pdf-o" aria-hidden="true"></i>
 											</a>
-										</div>
-										<div class="col-sm-9">
-											<h4>Download pdf</h4>
-											<p> You like print?</a></p>
+							</div>
+							<div class="col-sm-9">
+								<h4>Download pdf</h4>
+								<p> You like print?</a>
+								</p>
 
-										</div>
-									</div>
-									<!-- row ended -->
-									<!-- row starting  -->
-									<div class="row py-2">
-										<div class="col-sm-3 hidden-md-down">
-											<a class="bg-circle bg-info " href="https://twitter.com/ " target="_blank ">
+							</div>
+						</div>
+						<!-- row ended -->
+						<!-- row starting  -->
+						<div class="row py-2">
+							<div class="col-sm-3 hidden-md-down">
+								<a class="bg-circle bg-info " href="https://twitter.com/ " target="_blank ">
 												<i class="fa fa-2x fa-fw fa-info " aria-hidden="true "></i>
 											</a>
-										</div>
-										<div class="col-sm-9 ">
-											<h4>Info</h4>
-											About us.
-										</div>
-									</div>
-									<!-- row ended -->
-								</div>
-								<!-- footer column 3 end -->
+							</div>
+							<div class="col-sm-9 ">
+								<h4>Info</h4>
+								About us.
+							</div>
+						</div>
+						<!-- row ended -->
+					</div>
+					<!-- footer column 3 end -->
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-primary py-3 ">
+			<div class="container ">
+				<div class="row py-3 ">
+					<div class="col-md-9 ">
+						<p class="text-white "> Follow me </p>
+					</div>
+					<div class="col-md-3 ">
+						<div class="d-inline-block ">
+							<div class="bg-circle-outline d-inline-block ">
+								<a href="https://www.facebook.com/ " target="_blank " class="text-white "><i class="fa fa-2x fa-fw fa-facebook "></i>
+											</a>
+							</div>
+							<div class="bg-circle-outline d-inline-block ">
+								<a href="https://twitter.com/ " target="_blank " class="text-white ">
+												<i class="fa fa-2x fa-fw fa-twitter "></i></a>
+							</div>
+							<div class="bg-circle-outline d-inline-block ">
+								<a href="https://www.linkedin.com/company/ " target="_blank " class="text-white ">
+													<i class="fa fa-2x fa-fw fa-linkedin "></i></a>
 							</div>
 						</div>
 					</div>
-					<div class="container-fluid bg-primary py-3 ">
-						<div class="container ">
-							<div class="row py-3 ">
-								<div class="col-md-9 ">
-									<p class="text-white "> Follow me </p>
-								</div>
-								<div class="col-md-3 ">
-									<div class="d-inline-block ">
-										<div class="bg-circle-outline d-inline-block ">
-											<a href="https://www.facebook.com/ " target="_blank " class="text-white "><i class="fa fa-2x fa-fw fa-facebook "></i>
-											</a>
-										</div>
-										<div class="bg-circle-outline d-inline-block ">
-											<a href="https://twitter.com/ " target="_blank " class="text-white ">
-												<i class="fa fa-2x fa-fw fa-twitter "></i></a>
-											</div>
-											<div class="bg-circle-outline d-inline-block ">
-												<a href="https://www.linkedin.com/company/ " target="_blank " class="text-white ">
-													<i class="fa fa-2x fa-fw fa-linkedin "></i></a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</footer>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-						<!-- END footer  -->
-<!-- contact -->
-            <footer class="page-footer font-small ">
-            <div class="footer-copyright text-center py-3 ">© Novembre 2018 MoLeNgEeK:
-              <a href="https://paypal.be " target="_blank ">richaudtimbis@gmail.com</a>
-            </div>
-          </footer
-
-						<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css " rel="stylesheet " id="bootstrap-css ">
-						<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "></script>
-						<script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
-
-						<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo
-					 " crossorigin="anonymous "></script>
-						<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49
-					 " crossorigin="anonymous "></script>
-						<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy
-					 " crossorigin="anonymous "></script>
+	<!-- END footer  -->
+	<!-- contact -->
+	<footer class="page-footer font-small ">
+		<div class="footer-copyright text-center py-3 ">© Novembre 2018 MoLeNgEeK:
+			<a href="https://paypal.be " target="_blank ">richaudtimbis@gmail.com</a>
+		</div>
+	</footer>
 
 
-						<!-- Optional JavaScript -->
-						<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
 
-					</body>
-					</html>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+</body>
+
+</html>
