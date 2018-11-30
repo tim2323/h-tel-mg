@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body,html {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.imggauche{
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+.imgdroite{
+	float: right;
+	margin-left: 5%;
+	
+}
+.texte {
+	margin-top: 2%
+}
+.texte2 {
+	margin-top: 2%;
+}
+h2 {
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+
